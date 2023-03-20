@@ -1,0 +1,45 @@
+.portada{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+}
+
+.texto-portada{
+    grid-column:  2/2;
+    grid-row: 2/3;
+}
+
+.portada .btn{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+
+body{
+    background-color:rgb(46, 41, 39);
+    color: white;
+}
+
+.iconos-calidad{
+    max-width: 100%;
+}
+
+.productos{
+    background-color: black;
+}
+
+.contacto{
+    background-color: rgb(122, 96, 73);
+}
+
+.contacto img{
+   max-width: 100%;
+   min-height: 100%;  
+}
+
+
+
